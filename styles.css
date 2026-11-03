@@ -136,15 +136,6 @@ h2 {
 .row ul { padding-top: .4rem; list-style: none; max-width: 68ch; }
 .row li { padding-left: 1rem; text-indent: -1rem; padding-block: .12rem; }
 .row li::before { content: "– "; display: inline-block; width: 1rem; text-indent: 0; }
-.note {
-  font-size: .75rem;
-  font-weight: 800;
-  vertical-align: .35em;
-  text-decoration: none;
-  padding-inline: .15em;
-}
-.footnote { padding-top: .5rem; font-size: .9375rem; }
-.footnote:target { background: var(--yellow); color: #000; }
 
 .details > div {
   display: grid;
